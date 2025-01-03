@@ -31,11 +31,10 @@ public class SettingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivitySettingBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        binding.linearLayoutShare.setOnClickListener(view -> shareApp());
-        binding.linearLayoutRate.setOnClickListener(view -> rateApp());
-        binding.linearLayoutFeedback.setOnClickListener(view -> sendFeedback());
-        binding.linearLayoutApps.setOnClickListener(view -> moreApps());
-        binding.linearLayoutPrivacy.setOnClickListener(view -> privacyPolicy());
+       // binding.linearLayoutShare.setOnClickListener(view -> shareApp());
+       // binding.linearLayoutRate.setOnClickListener(view -> rateApp());
+       // binding.linearLayoutFeedback.setOnClickListener(view -> sendFeedback());
+       // binding.linearLayoutApps.setOnClickListener(view -> moreApps());
         binding.btnSignout.setOnClickListener(view -> signOut());
     }
 

@@ -1,36 +1,27 @@
 {
   "project_info": {
-    "project_number": "647634788312",
-    "project_id": "recipes-app-346db",
-    "storage_bucket": "recipes-app-346db.appspot.com"
+    "project_number": "341444096496",
+    "firebase_url": "https://sonede-6eb9d-default-rtdb.firebaseio.com",
+    "project_id": "sonede-6eb9d",
+    "storage_bucket": "sonede-6eb9d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:647634788312:android:46b9dad1eb5e883da81cad",
+        "mobilesdk_app_id": "1:341444096496:android:99e7ee30596393805fed35",
         "android_client_info": {
           "package_name": "com.hashmac.recipesapp"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "647634788312-ma68mfea3o6j2vrcblf4rql8shs7tsts.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCv8GCNVWiNYYKWzToSgbRpsV7xtfzJ434"
+          "current_key": "AIzaSyBwGxa3f358vpzlnFzY6xm6kpk0HU1Kd1c"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "647634788312-ma68mfea3o6j2vrcblf4rql8shs7tsts.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

@@ -171,8 +171,11 @@ public class HomeFragment extends Fragment {
                     Recipe recipe = dataSnapshot.getValue(Recipe.class);
                     recipes.add(recipe);
                 }
-                loadPopularRecipes(recipes);
-                loadFavouriteRecipes(recipes);
+                if(!recipes.isEmpty()){
+                    loadPopularRecipes(recipes);
+                    loadFavouriteRecipes(recipes);
+                }
+
             }
 
             @Override
@@ -187,6 +190,7 @@ public class HomeFragment extends Fragment {
         for (int i = 0; i < 5; i++) {
             int random = (int) (Math.random() * recipes.size());
             popularRecipes.add(recipes.get(random));
+
         }
         HorizontalRecipeAdapter adapter = (HorizontalRecipeAdapter) binding.rvPopulars.getAdapter();
         if (adapter != null) {
